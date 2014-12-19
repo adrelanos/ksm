@@ -1,3 +1,0 @@
-#!/bin/sh
-echo "Enable  at boot time"
-sudo update-rc.d ksm defaults

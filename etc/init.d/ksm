@@ -4,15 +4,20 @@
 #
 ### BEGIN INIT INFO
 # Provides:          ksm
-# Required-Start:    
+# Required-Start:
 # Required-Stop:
-# X-Start-Before:    
+# X-Start-Before:
 # Default-Start:     2 3 4 5
-# Default-Stop:      0 1 6 
+# Default-Stop:      0 1 6
 # Short-Description: Enable and disable KVM KSM
 # Description:       Enables and disables the KVM  Kernel Samepage Merging
 #		     feature of the kernel
 ### END INIT INFO
+
+## This file is part of Whonix.
+## wtfpl 2014 Marin Atanasov Nikolov <dnaeon@gmail.com>
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
 
 set -e
 
@@ -22,7 +27,7 @@ do_start() {
     echo 1 > /sys/kernel/mm/ksm/run
     log_success_msg "Enabling Kernel Samepage Merging"
 }
- 
+
 do_stop() {
     echo 0 > /sys/kernel/mm/ksm/run
     log_success_msg "Disabling Kernel Samepage Merging"

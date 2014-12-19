@@ -1,14 +1,20 @@
+## This file is part of Whonix.
+## wtfpl 2014 Marin Atanasov Nikolov <dnaeon@gmail.com>
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
 Source: ksm
-Maintainer: Marin Atanasov Nikolov <dnaeon@gmail.com>
 Section: misc
 Priority: extra
-Standards-Version: 3.9.4
-Build-Depends: debhelper (>= 7)
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 9), faketime
 Homepage: http://www.unix-heaven.org/
 Vcs-Git: git://github.com/dnaeon/ksm-init.d-debian.git
 Vcs-Browser: https://github.com/dnaeon/ksm-init.d-debian
+Standards-Version: 3.9.4
 
 Package: ksm
 Architecture: all
-Description: Enable kernel shared memory for KVM on debian or ubuntu
- Package with init script for enabling kernel shared memory
+Depends: ${misc:Depends}
+Description: Enable kernel shared memory for KVM on Debian or Ubuntu
+ Package with init script for enabling kernel shared memory.

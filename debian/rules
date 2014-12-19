@@ -1,3 +1,12 @@
 #!/usr/bin/make -f
+
+## This file is part of Whonix.
+## wtfpl 2014 Marin Atanasov Nikolov <dnaeon@gmail.com>
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
 %:
-	dh $@ 
+	dh $@
+
+override_dh_install:
+	dh_installinit --onlyscripts
