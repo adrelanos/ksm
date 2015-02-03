@@ -16,5 +16,10 @@ Standards-Version: 3.9.4
 Package: ksm
 Architecture: all
 Depends: ${misc:Depends}
-Description: Enable kernel shared memory for KVM on Debian or Ubuntu
- Package with init script for enabling kernel shared memory.
+Description: Enable Kernel Samepage Merging for KVM
+ Package that ships an init script for enabling Kernel Samepage Merging.
+ .
+ See also:
+ http://www.linux-kvm.org/page/KSM
+ .
+ Safe to remove, if you know what you are doing.
