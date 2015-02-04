@@ -1,0 +1,80 @@
+commit d3148bb05d569aad18d8ee9b960abbde1b5c88c7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:44 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit e1a23abc0d138331c6641baea956315a68f1b967
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:48 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit 901b527d9ab1a6ef79b94dccfb825778f111696a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 00:36:35 2015 +0000
+
+    extended package description to fix lintian warning
+
+commit 8e8ae25554238b61979268c8afc0f1f1ca5c9564
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jan 3 21:04:27 2015 +0000
+
+    added debian/watch
+
+commit b9087c759a6ca66a635b473bfb083aa8e68be70e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jan 3 21:03:51 2015 +0000
+
+    added debian/gain-root-command
+
+commit b12efcb324e6c98b2f0947ef41886cc0d65bd560
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jan 3 21:01:08 2015 +0000
+
+    minor
+
+commit ab0e14500350bafa510b830f917d3b0fefcd6f32
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 19 10:25:33 2014 +0000
+
+    packaging
+
+commit 4568ef564ad7bbc4e3c6874d0939913dd4b44973
+Merge: c0c39a9 d43a8de
+Author: Marin Atanasov Nikolov <dnaeon@gmail.com>
+Date:   Tue Nov 11 14:05:53 2014 +0200
+
+    Merge pull request #2 from fliphess/create_debian_package
+    
+    Create debian package
+
+commit d43a8de5f0f55d26d510042e2fadd92c602c8c75
+Author: Flip Hess <flip@byte.nl>
+Date:   Tue Nov 11 11:51:29 2014 +0100
+
+    rename to ksm
+
+commit 2a1e367508eb14861bebb38da964c1604acfe57d
+Author: Flip Hess <flip@byte.nl>
+Date:   Tue Nov 11 11:47:01 2014 +0100
+
+    add debhelper as build dependency
+
+commit 3a3d511ca12f6fc3101b619be822165013a28fc4
+Author: Flip <flip@byte.nl>
+Date:   Tue Nov 11 11:42:21 2014 +0100
+
+    add debian stuff
+
+commit c0c39a9c29c6da38b844af840079e89af70994ee
+Author: Marin Atanasov Nikolov <dnaeon@gmail.com>
+Date:   Fri Nov 23 13:34:22 2012 +0200
+
+    Add the init.d script to the repo
+
+commit 93c7f443095da9234277023bdb5012ce561bfb96
+Author: Marin Atanasov Nikolov <dnaeon@gmail.com>
+Date:   Fri Nov 23 13:33:08 2012 +0200
+
+    Add README
