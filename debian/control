@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9), faketime, genmkfile
 Homepage: http://www.unix-heaven.org/
 Vcs-Git: git://github.com/dnaeon/ksm-init.d-debian.git
 Vcs-Browser: https://github.com/dnaeon/ksm-init.d-debian
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 
 Package: ksm
 Architecture: all
