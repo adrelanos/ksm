@@ -9,7 +9,7 @@ Priority: extra
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
 Build-Depends: debhelper (>= 9), faketime, genmkfile
 Homepage: http://www.unix-heaven.org/
-Vcs-Git: git://github.com/dnaeon/ksm-init.d-debian.git
+Vcs-Git: https://github.com/dnaeon/ksm-init.d-debian.git
 Vcs-Browser: https://github.com/dnaeon/ksm-init.d-debian
 Standards-Version: 3.9.8
 
