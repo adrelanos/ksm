@@ -15,7 +15,7 @@ Standards-Version: 3.9.8
 
 Package: ksm
 Architecture: all
-Depends: ${misc:Depends}
+Depends: lsb-base, ${misc:Depends}
 Description: Enable Kernel Samepage Merging for KVM
  Package that ships an init script for enabling Kernel Samepage Merging.
  .
